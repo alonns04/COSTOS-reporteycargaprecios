@@ -1,0 +1,11 @@
+SELECT
+    id_hash AS ObjID,
+    tabla_hash AS ObjID_TBCustoMat,
+    fecha AS DataRef,
+    precio AS PrecoRevenda,
+    moneda AS IdMoeda,
+    codigo_hash AS CodTabela,
+    elemento_hash AS Descricao,
+    unidad AS UnidadeCusto
+FROM costos_materiales
+ORDER BY fecha DESC
