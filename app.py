@@ -21,7 +21,8 @@ IDENTIFICADOR_COL = os.getenv("IDENTIFICADOR_COL", "ObjID")
 # =========================================
 
 st.set_page_config(
-    page_title="Gestor de Costos y Precios",
+    page_title="Reporte COSTOS y PRECIOS",
+    page_icon="logo_barras.svg",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
